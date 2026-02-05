@@ -1,0 +1,4 @@
+get number of tests and time users spend typing.
+
+**Rate limit:** This operation can be called up to 60 times per minute for regular users.
+

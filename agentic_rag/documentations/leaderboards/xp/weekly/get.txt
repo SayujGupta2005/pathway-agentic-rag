@@ -1,0 +1,10 @@
+Get weekly xp leaderboard.
+
+**Rate limit:** This operation can be called up to 500 times per hour for regular users.
+
+**Required configuration:** This operation can only be called if the [configuration](#tag/configuration/operation/configuration.get) for  `leaderboards.weeklyXp.enabled` is `true`.
+
+**Parameter Rules:**
+- Default values: page=0, pageSize=50, weeksBefore=1
+- DO NOT include optional parameters unless explicitly requested by the user
+

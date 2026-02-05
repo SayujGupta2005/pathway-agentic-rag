@@ -1,0 +1,1 @@
+{'name': 'isUid', 'in': 'query', 'required': False, 'content': {'application/json': {'schema': {'type': 'string', 'description': 'Set to "true" if the path parameter is a UID, or omit/leave empty if it is a username'}}}}

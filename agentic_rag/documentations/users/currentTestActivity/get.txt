@@ -1,0 +1,4 @@
+Get test activity for the last up to 372 days for the current user .
+
+**Rate limit:** This operation can be called up to 60 times per hour for regular users.
+

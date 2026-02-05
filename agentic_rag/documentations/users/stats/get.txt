@@ -1,0 +1,4 @@
+Gets a user's typing stats data.
+
+**Rate limit:** This operation can be called up to 60 times per hour for regular users.
+

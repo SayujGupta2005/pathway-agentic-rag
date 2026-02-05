@@ -1,0 +1,4 @@
+Get list of public service announcements.
+
+**Rate limit:** This operation can be called up to 60 times per minute for regular users.
+

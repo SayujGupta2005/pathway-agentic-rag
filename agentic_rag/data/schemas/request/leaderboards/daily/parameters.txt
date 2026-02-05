@@ -1,0 +1,6 @@
+{'name': 'language', 'in': 'query', 'required': True, 'content': {'application/json': {'schema': {'type': 'string', 'default': 'english', 'description': 'Language for the leaderboard. Common values: english, spanish, french, german'}}}}
+{'name': 'mode', 'in': 'query', 'required': True, 'content': {'application/json': {'schema': {'type': 'string', 'enum': ['time', 'words'], 'default': 'time', 'description': 'Game mode: time (for timed tests) or words (for word count tests)'}}}}
+{'name': 'mode2', 'in': 'query', 'required': True, 'content': {'application/json': {'schema': {'type': 'integer', 'description': 'MUST be a number. For mode=time use: 15, 30, 60, or 120. For mode=words use: 10, 25, 50, or 100', 'default': 60}}}}
+{'name': 'daysBefore', 'in': 'query', 'required': False, 'content': {'application/json': {'schema': {'type': 'integer', 'default': 1, 'description': 'Days before today. Usually 1.'}}}}
+{'name': 'page', 'in': 'query', 'required': False, 'content': {'application/json': {'schema': {'type': 'integer', 'default': 0, 'minimum': 0}}}}
+{'name': 'pageSize', 'in': 'query', 'required': False, 'content': {'application/json': {'schema': {'type': 'integer', 'default': 50, 'minimum': 10, 'maximum': 200}}}}

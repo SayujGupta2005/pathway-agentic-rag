@@ -1,0 +1,4 @@
+Get the users tags.
+
+**Rate limit:** This operation can be called up to 60 times per hour for regular users.
+

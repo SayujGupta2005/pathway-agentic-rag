@@ -1,0 +1,12 @@
+{
+    "name": "pathway",
+    "image": "my-pathway-app:latest",
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

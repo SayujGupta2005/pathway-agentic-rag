@@ -1,0 +1,21 @@
+# Use the official Python 3.10 slim image for a smaller footprint
+FROM python:3.10-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Install system dependencies required for Pathway/ML (if needed)
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy and install requirements
+COPY requirements.txt ./
+# Added uvicorn here so you don't have to install it manually every time
+RUN pip install --no-cache-dir -r requirements.txt uvicorn pathway
+
+# Copy the rest of your application code
+COPY . .
+
+# Default command (can be overridden by your Dev Container settings)
+CMD [ "python", "./retrieval_server.py" ]

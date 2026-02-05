@@ -1,0 +1,4 @@
+Send a forgot password email.
+
+**Rate limit:** This operation can be called up to 1 times per minute for regular users.
+

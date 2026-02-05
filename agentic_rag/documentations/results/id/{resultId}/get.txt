@@ -1,0 +1,4 @@
+Get result by id.
+
+**Rate limit:** This operation can be called up to 300 times per hour for regular users and up to 60 times per hour with ApeKeys.
+

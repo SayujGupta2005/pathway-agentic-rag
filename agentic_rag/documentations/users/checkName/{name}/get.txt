@@ -1,0 +1,4 @@
+Checks to see if a username is available.
+
+**Rate limit:** This operation can be called up to 60 times per minute for regular users.
+

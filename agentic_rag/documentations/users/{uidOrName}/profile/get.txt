@@ -1,0 +1,6 @@
+Gets a user's profile.
+
+**Rate limit:** This operation can be called up to 100 times per hour for regular users.
+
+**Required configuration:** This operation can only be called if the [configuration](#tag/configuration/operation/configuration.get) for  `users.profiles.enabled` is `true`.
+

@@ -1,0 +1,4 @@
+Gets up to 1000 results.
+
+**Rate limit:** This operation can be called up to 60 times per hour for regular users and up to 30 times per day with ApeKeys.
+

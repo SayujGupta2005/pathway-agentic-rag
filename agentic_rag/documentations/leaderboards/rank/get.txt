@@ -1,0 +1,10 @@
+Get the rank of the current user on the all-time leaderboard.
+
+**Rate limit:** This operation can be called up to 500 times per hour for regular users.
+
+**CRITICAL Parameter Rules:**
+- mode2 MUST be a NUMBER, not a string like "zen" or "custom"
+- When mode is "time", mode2 must be one of these integers: 15, 30, 60, or 120 (representing seconds)
+- When mode is "words", mode2 must be one of these integers: 10, 25, 50, or 100 (representing word count)
+- DO NOT include optional parameters unless explicitly requested by the user
+
