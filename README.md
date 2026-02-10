@@ -1,7 +1,8 @@
 # Agentic RAG — Intelligent API Automation via RAG-Powered Tool Retrieval
 
-**Author Info:** Sayuj Gupta
-
+**Author Info:** 
+Sayuj Gupta
+Indian Institute of Technology (IIT), Jammu
 Computer Science & Engineering
 
 ---
