@@ -11,6 +11,26 @@ An intelligent **agentic Retrieval-Augmented Generation (RAG) AI assistant** tha
 
 ---
 
+## What this project does
+
+This is an AI customer-support agent that not only answers queries but can also execute real backend actions through APIs.
+
+Example:
+User: "Where is my last order?"
+→ Agent retrieves the correct API endpoint
+→ Calls the order service
+→ Parses response
+→ Returns tracking details
+
+User: "Cancel my order and create a support ticket"
+→ Identifies two separate API actions
+→ Generates request parameters
+→ Executes safely with approval
+→ Confirms completion
+
+The core idea:
+Instead of giving the LLM hundreds of tools (which fails), the system retrieves the correct API first using RAG, then executes it.
+
 ## System Design & Architecture
 
 ### Tech Stack
